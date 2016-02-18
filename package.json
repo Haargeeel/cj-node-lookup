@@ -1,0 +1,20 @@
+{
+  "name": "cj-node-lookup",
+  "version": "0.0.1",
+  "description": "CJ Affiliate Node Lookup",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:Haargeeel/cj-node-lookup.git"
+  },
+  "author": "Ray <ray.g@gmx.de>",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.3.1",
+    "superagent": "^1.7.2",
+    "superagent-xml2jsparser": "^0.1.1"
+  }
+}
