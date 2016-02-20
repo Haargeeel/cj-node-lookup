@@ -12,8 +12,8 @@ You can pass a opts object.
 ```
 var CJ = require('cj-node-lookup');
 var opts = {
-  devKey: 'abc123' // madantory
-  websiteId: 7654321, // madantory
+  devKey: 'abc123' // mandantory
+  websiteId: 7654321, // mandantory
   keywords: 'Teddy Bear',
   advertiserId: 1234567,
   area: 'US',
@@ -33,8 +33,8 @@ Or you set it one by one.
 var CJ = require('cj-node-lookup');
 
 CJ()
-  .setDevKey('abc123') // madantory
-  .setWebsiteId(7654321) // madantory
+  .setDevKey('abc123') // mandantory
+  .setWebsiteId(7654321) // mandantory
   .setKeywords('Toilet Paper')
   .setAdvertiserId(1234567)
   .setArea('US')
