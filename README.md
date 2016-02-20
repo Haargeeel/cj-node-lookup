@@ -12,11 +12,12 @@ You can pass a opts object.
 ```
 var CJ = require('cj-node-lookup');
 var opts = {
-  websiteId: 7654321,
+  devKey: 'abc123' // madantory
+  websiteId: 7654321, // madantory
   keywords: 'Teddy Bear',
   advertiserId: 1234567,
   area: 'US',
-  devKey: 'abc123'
+  filter: 'red blue brown' // maybe you don't want to have these colors
 }
 
 CJ(opts)
@@ -32,11 +33,12 @@ Or you set it one by one.
 var CJ = require('cj-node-lookup');
 
 CJ()
-  .setWebsiteId(7654321)
+  .setDevKey('abc123') // madantory
+  .setWebsiteId(7654321) // madantory
   .setKeywords('Toilet Paper')
   .setAdvertiserId(1234567)
   .setArea('US')
-  .setDevKey('abc123')
+  .setFilter('rough 1ply')
   .done()
   .then(result => {
     // do sth with result
